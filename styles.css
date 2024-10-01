@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    outline: none;
+}
+
+.menu-ofertas{
+    width: 100vw;
+    height: 140px;
+    background: rgb(2, 59, 29);
+    display: flex;
+    
+}
+
+.jacare {
+    height: 30px;
+    color: white;
+    position: fixed;
+    left: 70px;
+    top: 30px;
+}
+a {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    color: white;
+    opacity: 0.7;
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+a:hover {
+    opacity: 1;
+    transition: 0.7s;
+}
+
+.opçoes{
+    position: fixed;
+    display: flex;
+    left: 135px;
+    top: 22px;
+}
+
+.opçoes img {
+    height: 10px;
+    display: flex;
+    margin-top: 23px;
+    margin-left: -3px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.opçoes img:hover {
+    opacity: 1;
+    transition: 0.7s;
+}
+
+.input-1 {
+    display: flex;
+    position: fixed;
+    right: 380px;
+    top: 30px;
+    background: white;
+
+}
+
+.input-style {
+    width: 800px;
+    height: 55px;
+    border: none;
+}
+
+.input-style::placeholder{
+    position: fixed;
+    left: 60px;
+    font-size: 16px;
+    top: 15px;
+    color: rgb(2, 59, 29);
+}
+
+.input-1 img{
+    height: 21px;
+    position: fixed;
+    top: 47px;
+    margin-left: 20px;
+    opacity: 0.7;
+}
+
+.acessos {
+    display: flex;
+    position: fixed;
+    right: 0;
+    top: 45px;
+    right: 200px;
+    cursor: pointer;
+
+}
+
+.acessos img {
+    height: 30px;
+    margin-left: 8px;
+}
+
+.imagem-fundo {
+    position: fixed;
+    z-index: -1;
+    top: 135px;
+}
+.main {
+    display: grid;
+    position: fixed;
+    bottom: 90px;
+    left: 80px;
+    color: white;
+}
+
+.main h1 {
+    font-size: 70px;
+}
+
+.main p {
+    position: static;
+    font-size: 20px;
+    
+}
+
+.botao-looks {
+    cursor: pointer;
+    width: 90px;
+    height: 55px;
+    background-color: white;
+    border: 1px solid 200px;
+    margin-top: 20px;
+}
+
+.botao-looks:hover {
+   background-color: rgb(255, 245, 226);
+}
+
